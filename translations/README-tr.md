@@ -46,18 +46,15 @@
 
 ## Bu nedir?
 
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+Bu, benim web geliştiriciliğinden (kendi kendine eğitim, Bilgisayar Muhendisligi derecesi yok) büyük bir şirket için yazılım mühendliğine geçmek için çok aylık çalışma planım.
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+![Beyaz tahtada kodlama - HBO'nun Silikon Vadisi dizisinden](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+Bu, **yeni yazılım mühendisleri** veya yazılım / web geliştiriciliğinden (bilgisayar bilimi bilgisi gerekli olan) yazılım mühendisliğine geçenler içindir. Eğer uzun yıllar dayanan deneyime sahipseniz, daha zorlu bir mülakat bekleyebilirsiniz.
 
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
+Uzun yıllara dayanan yazılım / web geliştirme deneyiminiz varsa, Google, Amazon, Facebook ve Microsoft gibi büyük yazılım şirketleri yazılım mühendisliğini yazılım / web geliştirmeden farklı olarak görür ve bilgisayar bilimi bilgisini zorunlu tutar.
 
-If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
+Bir güvenilirlik mühendisi veya operasyon mühendisi olmak istiyorsanız, isteğe bağlı listeden (bilgisayar ağları, güvenlik) daha fazla çalışın.
 
 ---
 
@@ -81,47 +78,47 @@ If you want to be a reliability engineer or operations engineer, study more from
     - [Bağlı Listeler](#linked-lists)
     - [Yığın](#stack)
     - [Kuyruk](#queue)
-    - [Komut Çizelgesi](#hash-table)
+    - [Özetleme Tabloları](#hash-table)
 - [Daha Fazla Bilgi](#more-knowledge)
     - [İkili Arama](#binary-search)
     - [Bitwise operations](#bitwise-operations)
 - [Ağaçlar](#trees)
     - [Ağaçlar - Notlar & Arkaplan](#trees---notes--background)
     - [İkili Arama Ağaçları: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
+    - [Yığın Ağacı  / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
     - balanced search trees (general concept, not details)
     - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
+- [Sıralama](#sorting)
+    - seçmeli
+    - araya sokarak sıralama
+    - yığın sıralama
+    - hızlı sıralama
+    - birleştirerek sıralama
+- [Çizgeler](#graphs)
+    - yönlü
+    - yönsüz
+    - komşuluk matrisi
+    - komşuluk listesi
     - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
+- [Daha Fazla Bilgi](#even-more-knowledge)
+    - [Özyineleme](#recursion)
+    - [Dinamik Programlama](#dynamic-programming)
+    - [Nesne Tabanlı Programlama](#object-oriented-programming)
+    - [Tasarım Örüntüleri](#design-patterns)
+    - [Kombinatorik (n içinden k tane seçmek) & Olasılık](#combinatorics-n-choose-k--probability)
     - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
+    - [Önbellekler](#caches)
+    - [İşlemler ve İş Parçacıkları](#processes-and-threads)
+    - [Yazılım Testi](#testing)
+    - [Zamanlama](#scheduling)
     - [String searching & manipulations](#string-searching--manipulations)
     - [Tries](#tries)
-    - [Floating Point Numbers](#floating-point-numbers)
-    - [Unicode](#unicode)
+    - [Kayan Nokta Sayıları](#floating-point-numbers)
+    - [Evrensel Kod](#unicode)
     - [Endianness](#endianness)
-    - [Networking](#networking)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
+    - [Bilgisayar Ağları](#networking)
+- [Sistem Tasarımı, Ölçeklenebilirlik, Veri İşleme](#system-design-scalability-data-handling) (eğer 4 yıldan fazla deneyiminiz varsa)
+- [Son Gözden Geçirme](#final-review)
 - [Coding Question Practice](#coding-question-practice)
 - [Coding exercises/challenges](#coding-exerciseschallenges)
 - [Once you're closer to the interview](#once-youre-closer-to-the-interview)
@@ -130,7 +127,7 @@ If you want to be a reliability engineer or operations engineer, study more from
 - [Have questions for the interviewer](#have-questions-for-the-interviewer)
 - [Once You've Got The Job](#once-youve-got-the-job)
 
----------------- Everything below this point is optional ----------------
+---------------- Bu noktanın altındaki her şey isteğe bağlıdır ----------------
 
 ## Additional Resources
 
@@ -592,7 +589,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - dequeue: O(1) (linked list and array)
         - empty: O(1) (linked list and array)
 
-- ### Hash table
+- ### Özetleme Tablosu
     - [ ] Videos:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -814,7 +811,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 - Notes:
     - There are 4 basic ways to represent a graph in memory:
         - objects and pointers
-        - adjacency matrix
+        - komşuluk matrisi
         - adjacency list
         - adjacency map
     - Familiarize yourself with each representation and its pros & cons
@@ -854,10 +851,10 @@ Graphs can be used to represent many problems in computer science, so this secti
 - I'll implement:
     - [ ] DFS with adjacency list (recursive)
     - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
+    - [ ] DFS with komşuluk matrisi (recursive)
+    - [ ] DFS with komşuluk matrisi (iterative with stack)
     - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
+    - [ ] BFS with komşuluk matrisi
     - [ ] single-source shortest path (Dijkstra)
     - [ ] minimum spanning tree
     - DFS-based algorithms (see Aduni videos above):
@@ -884,7 +881,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - You probably won't see any dynamic programming problems in your interview, but it's worth being able to recognize a problem as being a candidate for dynamic programming.
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
-    - [ ] Videos:
+    - [ ] Videolar:
         - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
         - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
         - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
@@ -1056,7 +1053,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
         - [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
     - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
-    - [ ] Short course videos:
+    - [ ] Kısa ders videoları:
         - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
         - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
         - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
@@ -1290,7 +1287,7 @@ Take coding challenges every day, as many as you can.
 - [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
 - [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
-Coding Interview Question Videos:
+Kodlama Mülakatı Soru Videoları:
 - [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
     - Super for walkthroughs of problem solutions
