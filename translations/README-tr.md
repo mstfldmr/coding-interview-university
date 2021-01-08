@@ -1,19 +1,16 @@
-# Coding Interview University
+# Kodlama Mülakatı Üniversitesi
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> but it grew to the large list you see today. After going through this study plan, [I got hired
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
+> Başlangıçta bunu bir yazılım mühendisi olmak için kısa bir yapılacaklar listesi olarak oluşturdum.
+> Ama bugün gördüğünüz büyük listeye dönüştü. Bu çalışma planının üzerinden geçtikten sonra [Amazon'da Yazılım Mühendisi olarak işe alındım](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> Muhtemelen benım kadar çok çalışmanız gerekmeyecek. Yine deö ıhtıyacınız olan her şey burada.
+> Ben birkaç ay boyunca günde yaklaşık 8-12 saat çalıştım. Beniö hikayem burada: [Neden bir Google mülakatı için 8 ay boyunca tam zamanlı çalıştım](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> Burada listelenenler, sizi devler (Amazon, Facebook, Google ve Microsoft) de dahil olmak üzere hemen hemen her yazılım şirketinde teknik bir görüşmeye hazırlayacaktır.
 >
-> The items listed here will prepare you well for a technical interview at just about any software company,
-> including the giants: Amazon, Facebook, Google, and Microsoft.
->
-> *Best of luck to you!*
+> *İyi şanslar!*
 
 <details>
-<summary>Translations:</summary>
+<summary>Çeviriler:</summary>
 
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
@@ -29,7 +26,7 @@
 </details>
 
 <details>
-<summary>Translations in progress:</summary>
+<summary>Devam eden çeviriler:</summary>
 
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
@@ -47,7 +44,7 @@
 
 </details>
 
-## What is it?
+## Bu nedir?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
 
@@ -64,33 +61,33 @@ If you want to be a reliability engineer or operations engineer, study more from
 
 ---
 
-## Table of Contents
+## İçindekiler
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [The Daily Plan](#the-daily-plan)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
+- [Bu Nedir?](#what-is-it)
+- [Neden Kullanmalı?](#why-use-it)
+- [Nasıl Kullanılır?](#how-to-use-it)
+- [Yeterince Zeki Olduğunuzu Düşünmeyin](#dont-feel-you-arent-smart-enough)
+- [Video Kaynakları Hakkında](#about-video-resources)
+- [Mülakat Süreci & Genel Mülakatt Hazırlığı](#interview-process--general-interview-prep)
+- [Mülakat İçin Bir Dil Seçin](#pick-one-language-for-the-interview)
+- [Kitap Listesi](#book-list)
+- [Başlamadan Önce](#before-you-get-started)
+- [Neler Dahil Değil](#what-you-wont-see-covered)
+- [Günlük Plan](#the-daily-plan)
+- [Önkoşul Bilgiler](#prerequisite-knowledge)
+- [Algoritmik Karmaşıklık / Büyük-O / Asimptotik Analiz](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Veri Yapıları](#data-structures)
+    - [Diziler](#arrays)
+    - [Bağlı Listeler](#linked-lists)
+    - [Yığın](#stack)
+    - [Kuyruk](#queue)
+    - [Komut Çizelgesi](#hash-table)
+- [Daha Fazla Bilgi](#more-knowledge)
+    - [İkili Arama](#binary-search)
     - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
+- [Ağaçlar](#trees)
+    - [Ağaçlar - Notlar & Arkaplan](#trees---notes--background)
+    - [İkili Arama Ağaçları: BSTs](#binary-search-trees-bsts)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
     - balanced search trees (general concept, not details)
     - traversals: preorder, inorder, postorder, BFS, DFS
